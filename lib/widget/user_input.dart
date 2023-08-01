@@ -41,7 +41,7 @@ class UserInput extends HookConsumerWidget {
           .read(sessionStateNotifierProvider.notifier)
           .upsertSession(active);
 
-      sessionId = active.id;
+      sessionId = active.id!;
       ref
           .read(sessionStateNotifierProvider.notifier)
           .setActiveSession(active.copyWith(id: sessionId));

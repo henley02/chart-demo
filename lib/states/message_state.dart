@@ -1,9 +1,9 @@
 import 'package:chart_demo/models/message.dart';
-import 'package:chart_demo/states/session_state.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 import '../injection.dart';
+import '../states/session_state.dart';
 
 part 'message_state.g.dart';
 
